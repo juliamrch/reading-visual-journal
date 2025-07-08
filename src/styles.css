@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+* {
+  box-sizing: border-box;
+  
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -ms-overflow-style: none;
+  overflow: auto;
+}
+
+.mat-mdc-progress-spinner svg {
+  width: 30px !important;
+  height: 30px !important;
+}
+.spaced-button {
+  margin: 8px; /* or margin-left, margin, etc. */
+}
+.journal-editor-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Ensure Angular Material sidenav overlay is above everything else */
+.mat-drawer-backdrop,
+.mat-sidenav-backdrop,
+.mat-drawer-content,
+.mat-sidenav-content {
+  z-index: 1001 !important;
+}
+
+/* If the editor uses a high z-index, you may need to lower it */
+.journal-editor-container,
+#cesdk_container {
+  z-index: 1 !important;
+  position: relative;
+}
