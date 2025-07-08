@@ -22,18 +22,18 @@ Built with [@angular/cli](https://github.com/angular/angular-cli)
 
 ### Quick start
 
-```bash
-# Clone the repository
-git clone https://github.com/ngrx/platform.git
+Clone this repository
 
-# Go to the example directory
-cd platform
+```bash
+
+# Go to root directory
+cd reading-journal
 
 # Install the dependencies
 pnpm install
 
 # Start the server
-pnpm exec nx serve example-app
+pnpm exec nx serve
 ```
 
 Navigate to [http://localhost:4200/](http://localhost:4200/) in your browser. To log in, the username and password is `test`.
